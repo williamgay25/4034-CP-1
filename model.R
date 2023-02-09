@@ -1,4 +1,7 @@
-input <= read.csv("Customers.csv", header=TRUE)
+## Data set link
+## https://www.kaggle.com/datasets/datascientistanna/customers-dataset
+
+input = read.csv("Customers.csv", header=TRUE)
 attach(input)
 
 input = na.omit(input)
